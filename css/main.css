@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 600px;
+  margin: 150px auto;
+}
+.header {
+  background-image: url(../img/bg.svg);
+  background-repeat: no-repeat;
+}
+.header p {
+  padding: 97px 39px 7px 497px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.header span {
+  padding: 0 30px 15px 373px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+.main{
+    background-color: #ffffff;
+    padding: 30px;
+}
+input{
+    width: 456px;
+    height: 50px;
+    background-color: #EBEFF2;
+    padding-left: 12px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+border: none;
+border-radius: 5px;
+color: #888888;
+}
+button{
+    width: 65px;
+    height: 47px;
+    margin-left: 10px;
+    background-color: #20EEB0;
+    border: none;
+border-radius: 5px;
+}
+.addDeleteinput{
+    padding: 0 10px;
+    margin-top: 40px;
+    width: 100%;
+    height: 45px;
+    border: 2px solid 
+    #1E90FF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modalAdd{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#editForm{
+padding: 100px;
+background-color: #ffffff;
+box-shadow: 0 0 0 black;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 20px;
+
+
+}
+#editForm button{
+  margin: 0 auto;
+  width: 200px;
+  
+}
